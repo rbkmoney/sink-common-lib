@@ -1,4 +1,4 @@
-# procesing-common-lib
-Библиотека под общий протокол :
+# machine-event-common-lib
+Библиотека для переиспользования вздаимодействия с протоколами, обрабатываемые machinegun'ном:
 - eventsink (hellgate)
 - sinkievent (machinegun)
