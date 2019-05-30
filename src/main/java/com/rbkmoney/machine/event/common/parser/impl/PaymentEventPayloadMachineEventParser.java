@@ -1,7 +1,7 @@
-package com.rbkmoney.eventsinkevent.common.parser.impl;
+package com.rbkmoney.machine.event.common.parser.impl;
 
 import com.rbkmoney.damsel.payment_processing.EventPayload;
-import com.rbkmoney.eventsinkevent.common.serialization.BinaryDeserializer;
+import com.rbkmoney.machine.event.common.serialization.BinaryDeserializer;
 
 public class PaymentEventPayloadMachineEventParser extends MachineEventParser<EventPayload> {
 

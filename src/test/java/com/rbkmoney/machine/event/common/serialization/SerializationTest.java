@@ -1,8 +1,8 @@
-package com.rbkmoney.eventsinkevent.common.serialization;
+package com.rbkmoney.machine.event.common.serialization;
 
 import com.rbkmoney.damsel.payment_processing.EventPayload;
-import com.rbkmoney.eventsinkevent.common.serialization.impl.PaymentEventPayloadDeserializer;
-import com.rbkmoney.eventsinkevent.common.serialization.impl.PaymentEventPayloadSerializer;
+import com.rbkmoney.machine.event.common.serialization.impl.PaymentEventPayloadDeserializer;
+import com.rbkmoney.machine.event.common.serialization.impl.PaymentEventPayloadSerializer;
 import org.junit.Test;
 
 import java.util.Collections;

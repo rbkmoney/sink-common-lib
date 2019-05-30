@@ -1,9 +1,9 @@
-package com.rbkmoney.eventsinkevent.common.parser;
+package com.rbkmoney.machine.event.common.parser;
 
 import com.rbkmoney.damsel.payment_processing.EventPayload;
-import com.rbkmoney.eventsinkevent.common.parser.impl.PaymentEventPayloadMachineEventParser;
-import com.rbkmoney.eventsinkevent.common.serialization.impl.PaymentEventPayloadDeserializer;
-import com.rbkmoney.eventsinkevent.common.serialization.impl.PaymentEventPayloadSerializer;
+import com.rbkmoney.machine.event.common.parser.impl.PaymentEventPayloadMachineEventParser;
+import com.rbkmoney.machine.event.common.serialization.impl.PaymentEventPayloadDeserializer;
+import com.rbkmoney.machine.event.common.serialization.impl.PaymentEventPayloadSerializer;
 import com.rbkmoney.machinegun.eventsink.MachineEvent;
 import com.rbkmoney.machinegun.msgpack.Value;
 import org.junit.Test;

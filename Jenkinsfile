@@ -1,5 +1,5 @@
 #!groovy
-build('eventsinkevent-common-lib', 'docker-host') {
+build('machine-event-common-lib', 'docker-host') {
     checkoutRepo()
     loadBuildUtils()
 

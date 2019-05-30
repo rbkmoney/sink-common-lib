@@ -1,4 +1,4 @@
-package com.rbkmoney.eventsinkevent.common.parser;
+package com.rbkmoney.machine.event.common.parser;
 
 public interface Parser<F, T> {
 

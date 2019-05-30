@@ -1,4 +1,4 @@
-package com.rbkmoney.eventsinkevent.common.serialization.impl;
+package com.rbkmoney.machine.event.common.serialization.impl;
 
 import com.rbkmoney.damsel.payment_processing.EventPayload;
 

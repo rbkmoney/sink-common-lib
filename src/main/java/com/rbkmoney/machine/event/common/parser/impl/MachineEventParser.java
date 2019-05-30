@@ -1,8 +1,8 @@
-package com.rbkmoney.eventsinkevent.common.parser.impl;
+package com.rbkmoney.machine.event.common.parser.impl;
 
-import com.rbkmoney.eventsinkevent.common.exception.ParseException;
-import com.rbkmoney.eventsinkevent.common.parser.Parser;
-import com.rbkmoney.eventsinkevent.common.serialization.BinaryDeserializer;
+import com.rbkmoney.machine.event.common.exception.ParseException;
+import com.rbkmoney.machine.event.common.parser.Parser;
+import com.rbkmoney.machine.event.common.serialization.BinaryDeserializer;
 import com.rbkmoney.machinegun.eventsink.MachineEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

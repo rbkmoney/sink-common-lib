@@ -1,4 +1,4 @@
-package com.rbkmoney.eventsinkevent.common.exception;
+package com.rbkmoney.machine.event.common.exception;
 
 public class BinaryDeserializationException extends RuntimeException {
 

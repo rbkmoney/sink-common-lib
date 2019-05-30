@@ -1,7 +1,7 @@
-package com.rbkmoney.eventsinkevent.common.serialization.impl;
+package com.rbkmoney.machine.event.common.serialization.impl;
 
-import com.rbkmoney.eventsinkevent.common.exception.BinarySerializationException;
-import com.rbkmoney.eventsinkevent.common.serialization.BinarySerializer;
+import com.rbkmoney.machine.event.common.exception.BinarySerializationException;
+import com.rbkmoney.machine.event.common.serialization.BinarySerializer;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.thrift.TBase;
 import org.apache.thrift.TException;
