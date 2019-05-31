@@ -10,6 +10,7 @@ import org.junit.Test;
 
 import java.util.Collections;
 
+import static io.github.benas.randombeans.api.EnhancedRandom.random;
 import static org.junit.Assert.assertEquals;
 
 public class ParserTest {
