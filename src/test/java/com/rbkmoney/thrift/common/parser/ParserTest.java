@@ -1,16 +1,15 @@
-package com.rbkmoney.machine.event.common.parser;
+package com.rbkmoney.thrift.common.parser;
 
 import com.rbkmoney.damsel.payment_processing.EventPayload;
-import com.rbkmoney.machine.event.common.parser.impl.PaymentEventPayloadMachineEventParser;
-import com.rbkmoney.machine.event.common.serialization.impl.PaymentEventPayloadDeserializer;
-import com.rbkmoney.machine.event.common.serialization.impl.PaymentEventPayloadSerializer;
 import com.rbkmoney.machinegun.eventsink.MachineEvent;
 import com.rbkmoney.machinegun.msgpack.Value;
+import com.rbkmoney.thrift.common.parser.impl.PaymentEventPayloadMachineEventParser;
+import com.rbkmoney.thrift.common.serialization.impl.PaymentEventPayloadDeserializer;
+import com.rbkmoney.thrift.common.serialization.impl.PaymentEventPayloadSerializer;
 import org.junit.Test;
 
 import java.util.Collections;
 
-import static io.github.benas.randombeans.api.EnhancedRandom.random;
 import static org.junit.Assert.assertEquals;
 
 public class ParserTest {

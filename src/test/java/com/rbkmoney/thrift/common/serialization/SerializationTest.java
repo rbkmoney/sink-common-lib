@@ -1,8 +1,8 @@
-package com.rbkmoney.machine.event.common.serialization;
+package com.rbkmoney.thrift.common.serialization;
 
 import com.rbkmoney.damsel.payment_processing.EventPayload;
-import com.rbkmoney.machine.event.common.serialization.impl.PaymentEventPayloadDeserializer;
-import com.rbkmoney.machine.event.common.serialization.impl.PaymentEventPayloadSerializer;
+import com.rbkmoney.thrift.common.serialization.impl.PaymentEventPayloadDeserializer;
+import com.rbkmoney.thrift.common.serialization.impl.PaymentEventPayloadSerializer;
 import org.junit.Test;
 
 import java.util.Collections;

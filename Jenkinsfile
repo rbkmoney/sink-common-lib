@@ -1,5 +1,5 @@
 #!groovy
-build('machine-event-common-lib', 'docker-host') {
+build('thrift-common-lib', 'docker-host') {
     checkoutRepo()
     loadBuildUtils()
 

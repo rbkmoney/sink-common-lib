@@ -1,4 +1,4 @@
-# machine-event-common-lib
+# thrift-common-lib
 Библиотека для переиспользования вздаимодействия с протоколами, обрабатываемые machinegun'ном:
 - eventsink (hellgate)
 - sinkievent (machinegun)

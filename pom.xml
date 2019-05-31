@@ -12,7 +12,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
 
-    <artifactId>machine-event-common-lib</artifactId>
+    <artifactId>thrift-common-lib</artifactId>
     <version>0.0.1</version>
 
     <properties>

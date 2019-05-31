@@ -1,14 +1,14 @@
-package com.rbkmoney.machine.event.common.serialization.impl;
+package com.rbkmoney.thrift.common.serialization.impl;
 
-import com.rbkmoney.machine.event.common.exception.BinaryDeserializationException;
-import com.rbkmoney.machine.event.common.serialization.BinaryDeserializer;
+import com.rbkmoney.thrift.common.exception.ThriftBinaryDeserializationException;
+import com.rbkmoney.thrift.common.serialization.BinaryDeserializer;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.thrift.TBase;
 import org.apache.thrift.TDeserializer;
 import org.apache.thrift.TException;
 
 @Slf4j
-public abstract class ThriftDeserializer<T extends TBase> implements BinaryDeserializer<T> {
+public abstract class AbstractThriftBinaryDeserializer<T extends TBase> implements BinaryDeserializer<T> {
 
     private final ThreadLocal<TDeserializer> thriftDeserializer = ThreadLocal.withInitial(TDeserializer::new);
 
@@ -18,7 +18,7 @@ public abstract class ThriftDeserializer<T extends TBase> implements BinaryDeser
             thriftDeserializer.get().deserialize(t, bin);
         } catch (TException e) {
             log.error("Error when deserialize data", e);
-            throw new BinaryDeserializationException(e);
+            throw new ThriftBinaryDeserializationException(e);
         }
         return t;
     }

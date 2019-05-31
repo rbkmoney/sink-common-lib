@@ -1,4 +1,4 @@
-package com.rbkmoney.machine.event.common.exception;
+package com.rbkmoney.thrift.common.exception;
 
 public class ParseException extends RuntimeException {
 

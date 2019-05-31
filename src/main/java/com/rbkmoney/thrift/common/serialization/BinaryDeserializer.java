@@ -1,4 +1,4 @@
-package com.rbkmoney.machine.event.common.serialization;
+package com.rbkmoney.thrift.common.serialization;
 
 public interface BinaryDeserializer<T> {
 

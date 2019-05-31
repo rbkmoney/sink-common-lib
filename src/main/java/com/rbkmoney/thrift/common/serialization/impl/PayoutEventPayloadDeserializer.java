@@ -1,8 +1,8 @@
-package com.rbkmoney.machine.event.common.serialization.impl;
+package com.rbkmoney.thrift.common.serialization.impl;
 
 import com.rbkmoney.damsel.payout_processing.EventPayload;
 
-public class PayoutEventPayloadDeserializer extends ThriftDeserializer<EventPayload> {
+public class PayoutEventPayloadDeserializer extends AbstractThriftBinaryDeserializer<EventPayload> {
 
     @Override
     public EventPayload deserialize(byte[] bin) {
